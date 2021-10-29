@@ -1,0 +1,48 @@
+[23-Aug-2021 11:28:30 UTC] PHP Warning:  Use of undefined constant URL - assumed 'URL' (this will throw an Error in a future version of PHP) in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/inc/styles-scripts.php on line 9
+[23-Aug-2021 11:28:30 UTC] PHP Warning:  Use of undefined constant URL - assumed 'URL' (this will throw an Error in a future version of PHP) in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/inc/styles-scripts.php on line 17
+[23-Aug-2021 11:30:42 UTC] PHP Warning:  Use of undefined constant URL - assumed 'URL' (this will throw an Error in a future version of PHP) in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/inc/styles-scripts.php on line 9
+[23-Aug-2021 11:30:42 UTC] PHP Warning:  Use of undefined constant URL - assumed 'URL' (this will throw an Error in a future version of PHP) in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/inc/styles-scripts.php on line 17
+[23-Aug-2021 11:30:48 UTC] PHP Warning:  Use of undefined constant URL - assumed 'URL' (this will throw an Error in a future version of PHP) in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/inc/styles-scripts.php on line 9
+[23-Aug-2021 11:30:48 UTC] PHP Warning:  Use of undefined constant URL - assumed 'URL' (this will throw an Error in a future version of PHP) in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/inc/styles-scripts.php on line 17
+[23-Aug-2021 11:31:14 UTC] PHP Warning:  Use of undefined constant URL - assumed 'URL' (this will throw an Error in a future version of PHP) in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/inc/styles-scripts.php on line 9
+[23-Aug-2021 11:31:14 UTC] PHP Warning:  Use of undefined constant URL - assumed 'URL' (this will throw an Error in a future version of PHP) in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/inc/styles-scripts.php on line 17
+[26-Oct-2021 12:12:40 UTC] PHP Warning:  include(): Filename cannot be empty in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/header.php on line 56
+[26-Oct-2021 12:12:40 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/header.php on line 56
+[26-Oct-2021 12:13:55 UTC] PHP Warning:  include(): Filename cannot be empty in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/header.php on line 56
+[26-Oct-2021 12:13:55 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/header.php on line 56
+[26-Oct-2021 12:27:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_svg() in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/template-parts/header/menu-mobile.php:3
+Stack trace:
+#0 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/header.php(56): include()
+#1 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template.php(770): require_once('/home/brainsto/...')
+#2 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template.php(716): load_template('/home/brainsto/...', true, Array)
+#3 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/page-front.php(15): get_header()
+#5 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template-loader.php(106): include('/home/brainsto/...')
+#6 / in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/template-parts/header/menu-mobile.php on line 3
+[26-Oct-2021 12:28:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_svg() in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/template-parts/header/menu-mobile.php:3
+Stack trace:
+#0 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/header.php(56): include()
+#1 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template.php(770): require_once('/home/brainsto/...')
+#2 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template.php(716): load_template('/home/brainsto/...', true, Array)
+#3 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/page-front.php(15): get_header()
+#5 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template-loader.php(106): include('/home/brainsto/...')
+#6 / in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/template-parts/header/menu-mobile.php on line 3
+[26-Oct-2021 12:29:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_svg() in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/template-parts/header/menu-mobile.php:3
+Stack trace:
+#0 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/header.php(56): include()
+#1 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template.php(770): require_once('/home/brainsto/...')
+#2 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template.php(716): load_template('/home/brainsto/...', true, Array)
+#3 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/page-front.php(15): get_header()
+#5 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template-loader.php(106): include('/home/brainsto/...')
+#6 / in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/template-parts/header/menu-mobile.php on line 3
+[26-Oct-2021 12:29:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_svg() in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/template-parts/header/menu-mobile.php:3
+Stack trace:
+#0 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/header.php(56): include()
+#1 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template.php(770): require_once('/home/brainsto/...')
+#2 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template.php(716): load_template('/home/brainsto/...', true, Array)
+#3 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/page-front.php(15): get_header()
+#5 /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-includes/template-loader.php(106): include('/home/brainsto/...')
+#6 / in /home/brainsto/public_html/subdomains/bsnew.brainstormtech.pro/wp-content/themes/brainstormtech/template-parts/header/menu-mobile.php on line 3
