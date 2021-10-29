@@ -116,9 +116,9 @@ body.page-template-page-contact {
             font-family: "Inter-SemiBold";
             color: #12110c;
             margin-bottom: 50px;
-            line-height: 120%;
+            line-height: 95%;
               @media (max-width: 806px) {
-            line-height: 110%;
+            line-height: 105%;
           }
           }
           ul {
@@ -225,11 +225,24 @@ body.page-template-page-contact {
             }
           }
           form.contact-form:not(.sent){
-             visibility: hidden;
+            .success-message {
+              visibility: hidden;
+            }
           }
           form.contact-form.sent{
+            .field,.field-submit {
+                display: none !important;
+            }
             .success-message{
               visibility: visible;
+              padding-top: 210px;
+              text-align: center;
+              p{
+                @include res-font(32,38);
+                line-height: 52px;
+
+                margin-top:30px;
+              }
             }
           }
         }
